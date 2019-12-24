@@ -1,7 +1,12 @@
+package util;
+
+import domain.manageUser.Menu;
+import domain.manageUser.Role;
+
 import java.util.Collection;
 import java.util.HashSet;
 
-public class Util {
+public class RolesMenus {
     public static Collection createRoles(HashSet allFalseRoles, HashSet rightRoles){
         HashSet<Integer> check = new HashSet<Integer>();
         for(Object object:rightRoles){
